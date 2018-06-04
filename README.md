@@ -1,15 +1,17 @@
 ### Running App
 
-1. Navigate into project folder
+1. Install required develpment packages
 
-`npm install`
+> Navigate into project folder and run `npm install`
 
 2. Start local server
 
-`python3 -m http.server`
+> `python3 -m http.server`
 
 or
 
-`python -m SimpleHTTPServer 8000`
+> `python -m SimpleHTTPServer 8000`
 
-3. Go to http://localhost:8000
+3. Open project
+
+> Go to http://localhost:8000 with your browser
