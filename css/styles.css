@@ -7,11 +7,8 @@
 }
 
 *:focus {
-  border: 2px solid red;
-  background-color: #fff;
-  -webkit-box-shadow: 2px 2px 53px 5px rgba(235,101,139,1);
-  -moz-box-shadow: 2px 2px 53px 5px rgba(235,101,139,1);
-  box-shadow: 2px 2px 53px 5px rgba(235,101,139,1);
+  border: 3px solid red;
+  text-shadow: 1px 1px #000000;
 }
 
 body,td,th,p{
