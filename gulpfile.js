@@ -6,7 +6,7 @@ const imageResize = require('gulp-image-resize');
 gulp.task('resize', function() {
   gulp.src('img/src/*')
     .pipe(imageResize({
-      width: 500,
+      width: 400,
       height: 600,
       crop: true,
       upscale: false
