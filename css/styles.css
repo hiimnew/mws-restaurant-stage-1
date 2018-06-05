@@ -317,3 +317,18 @@ body.inside {
   font-size: 1.1em;
   padding-left: 25px;
 }
+.jump-to-content {
+  position: absolute;
+  left: 0;
+  transform: translate(0, -200px);
+  font-size: 1.4em;
+  background-color: #f85413;
+  color: #222;
+  height: 40px;
+  width: 200px;
+  z-index: 10000;
+}
+
+.jump-to-content:focus {
+  transform: translate(0, 0);
+}
