@@ -8,16 +8,33 @@ body {
 
 #restaurant-container,
 #map-container {
+  position: relative;
+  bottom: 15px;
   display: inline-block;
   max-width: 40%;
   padding: 20px;
 }
 
+.inside #reviews-container {
+  position: relative;
+  top: 10px;
+}
+
+#restaurant-container > h1 {
+  position: relative;
+  top: 25px;
+}
+
 .inside #map-container {
-  height: 500px;
-  top: 150px;
+  height: 800px;
+  top: 190px;
 }
 
 .inside header {
   max-width: 900px;
+}
+
+body #map-container-first-page {
+  width: 100%;
+  /* position: relative; */
 }
