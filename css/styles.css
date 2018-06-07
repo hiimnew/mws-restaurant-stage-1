@@ -174,7 +174,7 @@ nav h1 a {
   max-width: 100%;
   min-height: 248px;
 }
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #fff;
   background-color: rgb(175, 138, 68);
   text-align: center;
@@ -279,7 +279,7 @@ body.inside {
   padding: 30px 40px 80px;
   max-width: 100%;
 }
-#reviews-container h2 {
+#reviews-container h3 {
   color: #f58500;
   font-size: 24pt;
   font-weight: 300;
@@ -323,7 +323,7 @@ body.inside {
   transform: translate(0, -200px);
   font-size: 1.4em;
   background-color: #f85413;
-  color: #222;
+  color: #fff;
   height: 40px;
   width: 200px;
   z-index: 10000;

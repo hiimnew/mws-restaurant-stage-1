@@ -22,9 +22,11 @@
       <h1><a aria- href="/">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul aria-label="breadcrumb" id="breadcrumb" >
-      <li ><a aria-current="page" href="/">Home</a></li>
-    </ul>
+    <nav aria-label="breadcrumb">
+      <ul id="breadcrumb" >
+        <li ><a aria-current="page" href="/">Home</a></li>
+      </ul>
+    </nav>
     <!-- End breadcrumb -->
     <!-- End nav -->
   </header>
@@ -39,7 +41,7 @@
     <!-- End map -->
     <!-- Beginning restaurant -->
     <section id="restaurant-container">
-      <h1 id="restaurant-name"></h1>
+      <h2 id="restaurant-name"></h2>
       <img id="restaurant-img">
       <p id="restaurant-cuisine"></p>
       <p id="restaurant-address"></p>
@@ -66,7 +68,7 @@
   <!-- Main javascript file -->
   <script type="text/javascript" src="js/restaurant_info.js"></script>
   <!-- Google Maps -->
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_tKbW6A5pQ-eupxI56myUnHLqYCzOjKo&libraries=places&callback=initMap"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR GOOGLE_API_KEY&libraries=places&callback=initMap"></script>
   <!-- End scripts -->
 
 </body>

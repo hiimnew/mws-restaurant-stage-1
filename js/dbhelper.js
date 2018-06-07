@@ -161,12 +161,6 @@ class DBHelper {
   }
 
   /**
-   * Restaurant image alternative text
-   */
-  static imageAlternativeTextForRestaurant(restaurant) {
-    return `${restaurant.textAlternative}`;
-  }
-  /**
    * Map marker for a restaurant.
    */
   static mapMarkerForRestaurant(restaurant, map) {

@@ -145,14 +145,14 @@ createRestaurantHTML = (restaurant) => {
       srcset="${DBHelper.imageUrlForRestaurantLarge(restaurant)}">
     <img
       src="${DBHelper.imageUrlForRestaurantSmall(restaurant)}"
-      alt="${restaurant.textAlternative}"
+      alt="Image of the ${restaurant.name} restaurant"
       class="restaurant-img">
   </picture>
   `;
 
   li.innerHTML = responsiveImageHTML;
 
-  const name = document.createElement('h1');
+  const name = document.createElement('h2');
   name.innerHTML = restaurant.name;
   li.append(name);
 

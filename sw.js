@@ -26,7 +26,6 @@ self.addEventListener('install', function(e) {
 
 
 self.addEventListener('fetch', function(e) {
-  console.log('Ayo, I\'m tired of using technology');
   e.respondWith(
     caches.match(e.request)
       .then(response => {
